@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshiya Mohammed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0073e6, #6A82FB);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #about {
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        #about img {
+            border-radius: 10px;
+            max-width: 300px;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #0073e6;
+        }
+
+        #projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #projects li {
+            margin-bottom: 2rem;
+        }
+
+        #projects h3 {
+            color: #333;
+        }
+
+        #projects p {
+            font-size: 1rem;
+        }
+
+        #projects img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #fun-facts {
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #fun-facts img {
+            border-radius: 10px;
+            max-width: 300px; /* Adjust size for smaller display */
+            height: auto;
+            margin-top: 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #contact {
+            text-align: center;
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #0073e6, #6A82FB);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .github-project {
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .github-project a {
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .github-project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arshiya Mohammed</h1>
+        <p>ECE Student | Passionate About AI, App Development, and Technology</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#fun-facts">Fun Facts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <img src="Screenshot 2024-12-17 at 10.27.58 PM.png" alt="Arshiya Mohammed">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                Hi, I’m Arshiya Mohammed, an Electrical and Computer Engineering student at The Ohio State University, graduating in December 2025. I’m passionate about solving real-world problems through Artificial Intelligence, app development, and innovative technology.
+            </p>
+            <p>
+                I’ve had the privilege of working as a Data Analytics Consulting Intern at KPMG, where I improved data accuracy by 30% and delivered impactful presentations to clients with a 90% satisfaction rate. As an Undergraduate Teaching Assistant, I’ve supported students by simplifying complex engineering concepts, enhancing their analytical skills, and creating a collaborative learning environment.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <h3>Smartphone-Based Malaria Diagnosis App</h3>
+                <p>
+                    Developed an AI-powered mobile app to diagnose malaria with 92% accuracy. Designed a cost-effective 3D microscope attachment, reducing production costs by 20%. Integrated Swift for app development and leveraged TravisCI for continuous delivery, enhancing diagnostic precision by 87%.
+                </p>
+                Check out the full project documentation and code on GitHub: 
+                    <a href="https://github.com/Crystalhqx/Malaria-Diagnostics-App/blob/main/README.md">Malaria Detecting ios App</a>
+            </li>
+            <li>
+                <h3>U.S. Energy Consumption Analysis</h3>
+                <p>
+                    Conducted a detailed analysis of U.S. energy consumption trends across industries. Built predictive models using ARIMA and Prophet to forecast energy usage through 2030. Designed interactive dashboards to visualize insights for stakeholders.
+                </p>
+                <p>
+                    Check out the full project documentation and code on GitHub: 
+                    <a href="https://github.com/afrenchee/AI_BOOTCAMP_Group_Project_1_Energy_Consumption/blob/main/README.md" target="_blank">U.S. Energy Consumption Project</a>
+                </p>
+               
+            </li>
+        </ul>
+    </section>
+
+    <section id="fun-facts">
+        <h2>Fun Facts About Me</h2>
+        <p>
+            Outside of coding and engineering, I love exploring new hobbies and indulging in some of my favorite activities:
+        </p>
+        <ul style="list-style: none; padding: 0;">
+            <li>✨ <strong>Ice Cream Obsessed:</strong> I have a not-so-secret obsession with ice cream and love trying unique flavors whenever I get the chance!</li>
+            <li>🗼 <strong>Travel Lover:</strong> Exploring new places, cultures, and cuisines brings me joy and inspiration.</li>
+        </ul>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mohammed.204@osu.edu">mohammed.204@osu.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/arshiya-mohammed-277b13200" target="_blank">Arshiya Mohammed</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arshiya Mohammed. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
